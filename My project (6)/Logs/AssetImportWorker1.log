@@ -15,7 +15,7 @@ D:/Unity/Project/Test/My project (6)
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50095
+50450
 Successfully changed project path to: D:/Unity/Project/Test/My project (6)
 D:/Unity/Project/Test/My project (6)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/Unity/Project/Test/My project (6)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20852] Host "[IP] 10.240.163.255 [Port] 0 [Flags] 2 [Guid] 999304789 [EditorId] 999304789 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-A8G1HMC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27784] Host "[IP] 10.240.163.255 [Port] 0 [Flags] 2 [Guid] 1489256508 [EditorId] 1489256508 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-A8G1HMC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20852] Host "[IP] 10.240.163.255 [Port] 0 [Flags] 2 [Guid] 999304789 [EditorId] 999304789 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-A8G1HMC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27784] Host "[IP] 10.240.163.255 [Port] 0 [Flags] 2 [Guid] 1489256508 [EditorId] 1489256508 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-A8G1HMC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 36.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.34f1c1 (9b1d5b08fe8a)
 [Subsystems] Discovering subsystems at path D:/unity2019/2021.3.34f1c1/Editor/Data/Resources/UnitySubsystems
@@ -69,90 +69,162 @@ Initialize mono
 Mono path[0] = 'D:/unity2019/2021.3.34f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity2019/2021.3.34f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity2019/2021.3.34f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity2019/2021.3.34f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004194 seconds.
+Registered in 0.003984 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.560 seconds
+- Completed reload, in  0.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (560ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (287ms)
-			LoadAssemblies (163ms)
+		EndReloadAssembly (303ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (152ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (21ms)
+				RefreshPlugins (23ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005499 seconds.
+Registered in 0.008000 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 22.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
+- Completed reload, in  1.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1311ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1017ms)
-			LoadAssemblies (175ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (650ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (624ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (543ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (23ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Unreal/MI_Plant_Flower_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Tree_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_06': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Leaf_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_08_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Fern': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_00_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_02_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_13': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_07_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_09_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_01_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_10_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_06_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_04': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_03_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_02': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Stem_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_11_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_04_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp_3': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Small_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_05_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_07_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_06_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_04_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp_3': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Fern': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_07_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_00_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_02': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_06_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_04': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_03_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Stem_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_09_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_06': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_13': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_11_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Flower_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_06_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_02_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Leaf_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_10_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_05_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_07_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_01_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Tree_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_08_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Small_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (48.0 KB). Loaded Objects now: 2393.
-Memory consumption went from 98.4 MB to 98.4 MB.
-Total: 2.959800 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.590700 ms  DeleteObjects: 0.128200 ms)
+Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (30.2 MB). Loaded Objects now: 2433.
+Memory consumption went from 160.4 MB to 130.1 MB.
+Total: 6.994700 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.095800 ms MarkObjects: 1.915500 ms  DeleteObjects: 4.820600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,9 +241,1079 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 387364.097983 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(7786dc593621f6b4985422b4cdd7b78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 390970.882696 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/M_Firefly.mat
+  artifactKey: Guid(6649cc53913965943b6502a516af12b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/New Terrain 1.asset using Guid(7786dc593621f6b4985422b4cdd7b78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682516cca45757421d6a7296699821aa') in 0.070583 seconds 
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/M_Firefly.mat using Guid(6649cc53913965943b6502a516af12b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa32b9643dc6ae13b474bb53206fa53') in 0.226269 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_03.mat
+  artifactKey: Guid(abc00000000017775008498609127979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_03.mat using Guid(abc00000000017775008498609127979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ad9767cbc2e10e21e3c6a31c972ddf') in 0.508792 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Sticks_Large_01.mat
+  artifactKey: Guid(abc00000000001869602288391286231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Sticks_Large_01.mat using Guid(abc00000000001869602288391286231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e9ac811c9567ca9279d148ca9d083') in 0.465262 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_05_Night.mat
+  artifactKey: Guid(abc00000000010695364734017502621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_05_Night.mat using Guid(abc00000000010695364734017502621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e8c7f1683fda0faa8c24bb42a9aea3') in 0.453410 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Swamp_2.mat
+  artifactKey: Guid(71fbb3ed8cb9d9a42adb7359fa00a8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Swamp_2.mat using Guid(71fbb3ed8cb9d9a42adb7359fa00a8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb31d8c0cdcb50a7708e6b323526b5c2') in 0.016623 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rocks_Small_Moss.mat
+  artifactKey: Guid(abc00000000002619805342393999728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rocks_Small_Moss.mat using Guid(abc00000000002619805342393999728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b6d1e381a16ce3733b31d2a988737') in 0.493658 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Plant_Leaf_00.mat
+  artifactKey: Guid(abc00000000007517443024955367679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Plant_Leaf_00.mat using Guid(abc00000000007517443024955367679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c7673d5cf8c8f8e3652f10b4711a3') in 0.351683 seconds 
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_10_Night.mat
+  artifactKey: Guid(abc00000000008644810250913416168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_10_Night.mat using Guid(abc00000000008644810250913416168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfb68f8936106d80254547f49ec2ed0') in 0.415830 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Swamp_1.mat
+  artifactKey: Guid(6dd2724ecbedafb46a5c3cd71ba3135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Swamp_1.mat using Guid(6dd2724ecbedafb46a5c3cd71ba3135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8145a4d850689b819c393ce617e0a32b') in 0.012490 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_02.mat
+  artifactKey: Guid(abc00000000011416629950208231659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_02.mat using Guid(abc00000000011416629950208231659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2802b607dd9ad00a705bcfb913b71db') in 0.429354 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Sticks_Small_09.mat
+  artifactKey: Guid(abc00000000013150820104837685921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Sticks_Small_09.mat using Guid(abc00000000013150820104837685921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df5e3fe0b7ec09758e96a24bc869f36') in 0.459564 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_04_Night.mat
+  artifactKey: Guid(abc00000000009546538089876712858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_04_Night.mat using Guid(abc00000000009546538089876712858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be40bfdaa74aa3f8d86473b02ecac981') in 0.425352 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/M_Mosquitos.mat
+  artifactKey: Guid(94d132d4a50c4f14a936fb3bc3629812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/M_Mosquitos.mat using Guid(94d132d4a50c4f14a936fb3bc3629812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4434344c9d31d43ec3ab7586ce2f69d') in 0.010052 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_00.mat
+  artifactKey: Guid(abc00000000015558115060246751940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_00.mat using Guid(abc00000000015558115060246751940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e3a6b3dcf01de22fb3d6c3c886a4c8') in 0.438546 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Sticks_Large_03.mat
+  artifactKey: Guid(abc00000000005540946156126145879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Sticks_Large_03.mat using Guid(abc00000000005540946156126145879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31715749907a1a93603a79021ec99515') in 0.507464 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_00_Night.mat
+  artifactKey: Guid(abc00000000005871017682790796256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Mushroom_00_Night.mat using Guid(abc00000000005871017682790796256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8b6a058858578af838f095cf7fdcfa') in 0.517727 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rocks_Large_06_Moss.mat
+  artifactKey: Guid(abc00000000003644312531322929625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rocks_Large_06_Moss.mat using Guid(abc00000000003644312531322929625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0ce2de48213bfffb3770e51c5e5167') in 0.512967 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Fern.mat
+  artifactKey: Guid(abc00000000016297777711166204553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Fern.mat using Guid(abc00000000016297777711166204553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa06c51eeb79bd96b2dd93add3926ac4') in 0.411612 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_04.mat
+  artifactKey: Guid(abc00000000004741602400974540740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/BuiltIn/Materials/MI_Rock_04.mat using Guid(abc00000000004741602400974540740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c93eec5c4d9d018cd83dd41cd2dcf4') in 0.528305 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1323ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Unreal/MI_Plant_Flower_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Tree_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_06': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Leaf_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_08_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Fern': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_00_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_02_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_13': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_07_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_09_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_01_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_10_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_06_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_04': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_03_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_02': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Stem_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_11_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_04_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp_3': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Small_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_05_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_07_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_06_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_09_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Medium_07_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Stem_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_03_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_06_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_01_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_04': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_07_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_08_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Small_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_05_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp_3': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Fern': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_11_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Leaf_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_13': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Medium_06': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_10_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_02': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Large_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_00_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_02_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Tree_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Grass_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rocks_Large_06_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Plant_Flower_00': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Mushroom_04_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Rock_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Sticks_Small_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unreal/MI_Swamp': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (30.2 MB). Loaded Objects now: 2478.
+Memory consumption went from 159.8 MB to 129.6 MB.
+Total: 6.602700 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.424700 ms  DeleteObjects: 3.932000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.239461 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Mushroom_04.prefab
+  artifactKey: Guid(abc00000000002280462401191752789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Mushroom_04.prefab using Guid(abc00000000002280462401191752789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Mushroom_04_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Mushroom_04_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Mushroom_04_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'baca6ec0da7d6034364b48a9e831fe44') in 0.152627 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Rocks_Large_01.prefab
+  artifactKey: Guid(abc00000000017452345019510451100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Rocks_Large_01.prefab using Guid(abc00000000017452345019510451100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Rocks_Large_01_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Rocks_Large_01_Moss': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Rocks_Large_01_Moss': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '7ddc99fca4f5d0f78b3efc359bdabb51') in 0.081171 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Rock_04.prefab
+  artifactKey: Guid(abc00000000012826385529922249190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Rock_04.prefab using Guid(abc00000000012826385529922249190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Rock_04': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Rock_04': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Rock_04': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '1f157eda37696b2516bac360ada16ae8') in 0.080734 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mushroom_Forest/Prefabs
+  artifactKey: Guid(69a01fb4f9287d04f92bfdfbfb28b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs using Guid(69a01fb4f9287d04f92bfdfbfb28b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028065b643916417781c75cedc0360b5') in 0.002898 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Mushroom_08.prefab
+  artifactKey: Guid(abc00000000009122546662871354257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Mushroom_08.prefab using Guid(abc00000000009122546662871354257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Mushroom_08_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Mushroom_08_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Mushroom_08_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '562d7d382c53a0a6c2726f2388c95bfc') in 0.092614 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Mushroom_05.prefab
+  artifactKey: Guid(abc00000000007048243147814183564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Mushroom_05.prefab using Guid(abc00000000007048243147814183564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Mushroom_05_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Mushroom_05_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Mushroom_05_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '5455878ef6c320c89865d8e1fd9077a3') in 0.089300 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Mushroom_01.prefab
+  artifactKey: Guid(abc00000000009738358196573191424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Mushroom_01.prefab using Guid(abc00000000009738358196573191424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Mushroom_01_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Mushroom_01_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Mushroom_01_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '0f9794fc261fa0638630d53a5a633f10') in 0.117610 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Rock_03.prefab
+  artifactKey: Guid(abc00000000016653019791955246337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Rock_03.prefab using Guid(abc00000000016653019791955246337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Rock_03': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Rock_03': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Rock_03': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'd7a7303209ea44002892ae92d33eb706') in 0.083769 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Rocks_Large_06.prefab
+  artifactKey: Guid(abc00000000000359743099178851675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Rocks_Large_06.prefab using Guid(abc00000000000359743099178851675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Rocks_Large_06_Moss': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Rocks_Large_06_Moss': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Rocks_Large_06_Moss': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'aa805f3834292bd81f03ef4f19ad1b7a') in 0.065705 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Sticks_Small_09.prefab
+  artifactKey: Guid(abc00000000001120815908579930723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Sticks_Small_09.prefab using Guid(abc00000000001120815908579930723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Sticks_Small_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Sticks_Small_09': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 148
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Sticks_Small_09': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 148
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '79f7a0f4e0bd9a4fde05ecdfe7d1995e') in 0.030110 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Mushroom_11.prefab
+  artifactKey: Guid(abc00000000005434264475953436671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Mushroom_11.prefab using Guid(abc00000000005434264475953436671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Mushroom_11_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Mushroom_11_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Mushroom_11_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'dbfa23e6b96cceb3b628175f85ac87f5') in 0.092189 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Waterfall.prefab
+  artifactKey: Guid(abc00000000009919799248944623414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Waterfall.prefab using Guid(abc00000000009919799248944623414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60daff5914e1efd5fd0c5ff88bfc4fd1') in 0.021361 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Mushroom_10.prefab
+  artifactKey: Guid(abc00000000017720202442268166054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Mushroom_10.prefab using Guid(abc00000000017720202442268166054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Mushroom_10_Night': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Mushroom_10_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Mushroom_10_Night': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '2a05b2dcacad87c1bd775efbb2685828') in 0.091627 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Rock_02.prefab
+  artifactKey: Guid(abc00000000016320028144548112184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Rock_02.prefab using Guid(abc00000000016320028144548112184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Rock_02': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Rock_02': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Rock_02': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 150
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '7056a2b168a65c312184f79c511fa52d') in 0.086203 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/Grass_09.prefab
+  artifactKey: Guid(abc00000000017949504554209748784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/Grass_09.prefab using Guid(abc00000000017949504554209748784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unreal/MI_Grass_09': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Unreal/MI_Grass_09': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 149
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Shader error in 'Unreal/MI_Grass_09': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 149
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _BLENDMODE_OFF _REFRACTION_OFF
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+Failed to create MaterialEnum, enum UnityEditor.Rendering.HighDefinition.OpaqueCullMode not found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialEnumDrawer:.ctor (string)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+UnityEditor.MaterialPropertyHandler:CreatePropertyDrawer (System.Type,string)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Failed to create material drawer Enum with arguments 'UnityEditor.Rendering.HighDefinition.OpaqueCullMode'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: '89c9b4ffd96211c8a60776b0c6402ba7') in 0.040345 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mushroom_Forest/Prefabs/PS_Firefly.prefab
+  artifactKey: Guid(cc790fd421d2de1428041254334826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mushroom_Forest/Prefabs/PS_Firefly.prefab using Guid(cc790fd421d2de1428041254334826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa24123a1328c435d44bebba36f2cca0') in 0.018047 seconds 
+Number of asset objects unloaded after import = 8
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
